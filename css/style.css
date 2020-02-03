@@ -3,10 +3,12 @@
 .ms--header {
     padding-top: 20px;
     padding-bottom: 20px;
+    height: 92px;
 }
 
 .navbar-default {
     background-color: white;
+    margin-bottom: 0;
 }
 
 .navbar-default .navbar-header .navbar-brand img {
@@ -18,23 +20,31 @@
 
 .navbar-default .navbar-nav > li > a {
     color: #031b4e;
+    font-weight: 700;
 }
 
 .navbar-default .navbar-nav > li > .btn-sm {
-    padding: 5px 10px;
-    margin-top: 10px;
-    border-radius: 3px;
+    padding: 8px 13px;
+    margin-top: 8px;
+    border-radius: 5px;
     border: 1px solid #0069ff;
     color: #0069ff;
     font-weight: 700;
+    font-size: 16px;
 }
 
 /* FINISCE HEADER */
 
 /* COMINCIA JUMBOTRON */
 
+#jumbotron {
+
+}
+
 .ms--bg-image {
     background: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .ms--white-font {
@@ -48,14 +58,21 @@
 }
 
 #jumbotron .ms--left-block p {
-    font-size: 27px;
+    font-size: 26px;
     opacity: 0.6;
+}
+
+#jumbotron .ms--right-block h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #031b4e;
 }
 
 #jumbotron form {
     background-color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
 }
 
 #jumbotron .ms--btn-blue {
@@ -66,11 +83,18 @@
     padding-bottom: 12px;
 }
 
+.ms--sign-up {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .ms--sign-up span {
     padding-left: 10px;
     padding-right: 10px;
+    color: #5b6987;
 }
-/*
+
+
 .ms--sign-up:before,
 .ms--sign-up:after {
     content: '';
@@ -81,7 +105,42 @@
     bottom: 3px;
     border-radius: 3px;
     background-color: black;
-    opacity: 0.3;
+    opacity: 0.2;
 }
-*/
+
+#jumbotron .ms--right-block input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #f1f1f1;
+
+}
+
+#jumbotron .ms--right-block input::placeholder {
+    color: rgba(3,27,78,.7);
+    font-size: 15px;
+}
+
+#jumbotron form .btn-general {
+    padding: 10px 20px;
+}
+
+#jumbotron form .btn-general i {
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+#jumbotron form .btn-general .fa-github {
+    color: #99a1b3;
+}
+
+#jumbotron form .btn-general .fa-google {
+    color: green;
+}
+
+#jumbotron form .btn-general span {
+    font-weight: 700;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
 /* FINISCE JUMBOTRON */
