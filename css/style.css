@@ -1,3 +1,5 @@
+/* COMINCIA HEADER */
+
 .ms--header {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -26,3 +28,60 @@
     color: #0069ff;
     font-weight: 700;
 }
+
+/* FINISCE HEADER */
+
+/* COMINCIA JUMBOTRON */
+
+.ms--bg-image {
+    background: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+}
+
+.ms--white-font {
+    color: white;
+}
+
+#jumbotron .ms--left-block h1 {
+    font-size: 65px;
+    padding-bottom: 10px;
+
+}
+
+#jumbotron .ms--left-block p {
+    font-size: 27px;
+    opacity: 0.6;
+}
+
+#jumbotron form {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#jumbotron .ms--btn-blue {
+    color: white;
+    background-color: #0069ff;
+    font-weight: 700;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.ms--sign-up span {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*
+.ms--sign-up:before,
+.ms--sign-up:after {
+    content: '';
+    display: inline-block;
+    width: 110px;
+    height: 1px;
+    position: relative;
+    bottom: 3px;
+    border-radius: 3px;
+    background-color: black;
+    opacity: 0.3;
+}
+*/
+/* FINISCE JUMBOTRON */
