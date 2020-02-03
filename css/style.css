@@ -72,6 +72,10 @@
     color: white;
 }
 
+#jumbotron .ms--left-block {
+    padding-top: 50px;
+}
+
 #jumbotron .ms--left-block h1 {
     font-size: 65px;
     padding-bottom: 10px;
@@ -79,8 +83,9 @@
 }
 
 #jumbotron .ms--left-block p {
-    font-size: 26px;
+    font-size: 25px;
     opacity: 0.6;
+    padding-right: 70px;
 }
 
 #jumbotron .ms--right-block h4 {
@@ -121,7 +126,7 @@
 .ms--sign-up:after {
     content: '';
     display: inline-block;
-    width: 100px;
+    width: 20%;
     height: 1px;
     position: relative;
     bottom: 3px;
