@@ -32,7 +32,7 @@
     font-weight: 500;
 }
 
-.navbar-default .navbar-nav > li > .btn-sm {
+.navbar-default .navbar-nav > li > .ms--btn-signup {
     padding: 8px 13px;
     margin-top: 8px;
     border-radius: 5px;
@@ -45,6 +45,11 @@
 
 .navbar-default .navbar-nav > li > a:hover{
     color: #0069ff;
+}
+
+.navbar-default .navbar-nav > li > .ms--btn-signup:hover {
+    color: white;
+    background-color: #0069ff;
 }
 
 
