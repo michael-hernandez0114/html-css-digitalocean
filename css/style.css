@@ -1,5 +1,9 @@
 /* COMINCIA HEADER */
 
+.test {
+    padding: 0 30px
+}
+
 .ms--header {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -43,7 +47,7 @@
 
 .ms--bg-image {
     background: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
-    padding-top: 60px;
+    padding-top: 152px;
     padding-bottom: 60px;
 }
 
@@ -99,7 +103,7 @@
 .ms--sign-up:after {
     content: '';
     display: inline-block;
-    width: 110px;
+    width: 100px;
     height: 1px;
     position: relative;
     bottom: 3px;
@@ -118,6 +122,11 @@
 #jumbotron .ms--right-block input::placeholder {
     color: rgba(3,27,78,.7);
     font-size: 15px;
+}
+
+#jumbotron form {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #jumbotron form .btn-general {
@@ -141,6 +150,11 @@
     font-weight: 700;
     font-size: 18px;
     padding-right: 15px;
+}
+
+#jumbotron .ms--terms {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* FINISCE JUMBOTRON */
