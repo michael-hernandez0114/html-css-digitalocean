@@ -426,3 +426,30 @@ body {
 }
 
 /* FINISCE WORLD */
+
+/* COMINCIA DEVELOPMENT */
+
+#development .ms--link-in-p {
+    color: #0069ff;
+    text-decoration: underline;
+}
+
+#development .ms--link-in-p:hover {
+    color: #005fe6;
+}
+
+#development .jumbotron {
+    background-color: white;
+}
+
+#development .jumbotron img {
+    max-width: 100%;
+    height: 25px;
+    object-fit: contain;
+}
+
+#development .ms--blockquote {
+    border: 0;
+}
+
+/* FINISCE DEVELOPMENT */
