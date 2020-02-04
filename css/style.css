@@ -550,4 +550,8 @@ body {
     padding-bottom: 7px;
 }
 
+#ms--footer .ms--link-group {
+    border-bottom: 1px solid #6d7583;
+}
+
 /* FINISCE LINK-GROUPS */
