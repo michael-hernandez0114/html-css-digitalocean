@@ -4,6 +4,25 @@
     color: #031b4e;
 }
 
+.ms--bg-gray {
+    background-color: #f3f5f9;
+}
+
+.ms--block-title-1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.ms--block-description-1 {
+    color: rgba(3,27,78,.7);
+    font-size: 21px;
+}
+
+.ms--block-description-2 {
+    color: rgba(3,27,78,.7);
+    font-size: 16px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -194,7 +213,6 @@ body {
 /* COMINCIA BUSINESS-SOLUTIONS */
 
 #business-solutions {
-    background-color: #f3f5f9;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -231,14 +249,8 @@ body {
     padding-bottom: 80px;
 }
 
-#deploy h2 {
-    font-size: 35px;
-    font-weight: 700;
-}
-
 #deploy p {
-    color: rgba(3,27,78,.7);
-    font-size: 21px;
+
 }
 
 #deploy .ms--block-content {
@@ -284,3 +296,55 @@ body {
 }
 
 /* FINISCE DEPLOY */
+
+/* COMINCIA DEVELOPERS */
+
+#developers .ms--block-description {
+    padding-bottom: 40px;
+}
+
+#developers .ms--img-block {
+
+
+}
+
+#developers .ms--img-block img {
+    border-radius: 5px;
+}
+
+
+#developers .ms--img-block p {
+    padding-top: 40px;
+
+}
+
+#developers .ms--img-block:hover {
+    cursor: pointer;
+}
+
+#developers .ms--circle-list li:hover {
+    background-color: blue;
+}
+
+#developers .ms--circle-list {
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+#developers .ms--circle-list:hover {
+    background-color: blue;
+}
+
+/* FINISCE DEVELOPERS */
+
+/* COMINCIA BUSINESS */
+
+#business {
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 500px;
+}
+
+/* FINISCE BUSINESS */
