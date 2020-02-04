@@ -371,3 +371,58 @@ body {
 
 
 /* FINISCE BUSINESS */
+
+/* COMINCIA WORLD */
+
+#world {
+    background: url('https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg');
+    background-color: #031b4e;
+}
+
+#world .ms--container-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#world h2 {
+    color: white;
+    padding-bottom: 40px;
+}
+
+#world ul {
+    list-style: none;
+}
+
+#world li {
+    font-size: 13px;
+
+
+}
+
+#world li .ms--list-item-row {
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#world li .ms--list-text-left {
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+#world li .ms--list-text-middle {
+    opacity: 0.6;
+    color: white;
+}
+
+#world li .ms--list-text-right {
+    color: #00d7d2;
+}
+
+#world li .ms--list-text-right:hover {
+    color: #0069ff;
+    text-decoration: none;
+}
+
+/* FINISCE WORLD */
