@@ -8,6 +8,10 @@
     background-color: #f3f5f9;
 }
 
+.ms--bg-dark {
+    background-color: #010e28;
+}
+
 .ms--block-title-1 {
     font-size: 35px;
     font-weight: 700;
@@ -54,9 +58,23 @@
     transform: rotate(-90deg);
 }
 
-.ms--img-style {
+.ms--circle-list {
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
 
+.ms--circle-list:hover {
+    background-color: blue;
+}
+
+.ms--img-style {
     height: 40px;
+}
+
+.ms--container-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 body {
@@ -340,16 +358,6 @@ body {
     background-color: blue;
 }
 
-#developers .ms--circle-list {
-    height: 14px;
-    border-radius: 50%;
-    border: 2px solid blue;
-}
-
-#developers .ms--circle-list:hover {
-    background-color: blue;
-}
-
 /* FINISCE DEVELOPERS */
 
 /* COMINCIA BUSINESS */
@@ -377,11 +385,6 @@ body {
 #world {
     background: url('https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg');
     background-color: #031b4e;
-}
-
-#world .ms--container-padding {
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 #world h2 {
@@ -429,6 +432,10 @@ body {
 
 /* COMINCIA DEVELOPMENT */
 
+#development h2 {
+    padding-bottom: 30px;
+}
+
 #development .ms--link-in-p {
     color: #0069ff;
     text-decoration: underline;
@@ -450,6 +457,97 @@ body {
 
 #development .ms--blockquote {
     border: 0;
+    padding-top: 30px;
+}
+
+#development .ms--blockquote p {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+#development .ms--blockquote .ms--cite-line1 {
+    opacity: 0.8;
+    font-size: 16px;
+}
+
+#development .ms--blockquote .ms--cite-line2 {
+    font-size: 12px;
+    color: rgba(3,27,78,.7);
+    padding-bottom: 20px;
+}
+
+#developement .jumbotron:hover {
+    cursor: grab;
+}
+
+#development .ms--blockquote a:hover {
+    color: #005fe6;
 }
 
 /* FINISCE DEVELOPMENT */
+
+/* COMINCIA GET-STARTED-NOW */
+
+#get-started-now {
+    background: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+
+}
+
+#get-started-now .ms--padding-2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#get-started-now h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#get-started-now .ms--btn-create {
+    border-radius: 5px;
+    border: 1px solid #0069ff;
+    color: #0069ff;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#get-started-now .ms--btn-create:hover {
+    background-color: hsla(0,0%,100%,.8);
+}
+/* FINISCE GET-STARTED-NOW */
+
+/* COMINCIA LINK-GROUPS */
+
+#ms--footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#ms--footer ul {
+    list-style: none;
+}
+
+#ms--footer .ms--list-title {
+    color: white;
+    padding-bottom: 10px;
+}
+
+#ms--footer ul li a {
+    text-decoration: none;
+    color: #6d7583;
+}
+
+#ms--footer ul li a:hover {
+    color: white;
+}
+
+#ms--footer ul li:nth-child(1n+2) {
+    padding-bottom: 7px;
+}
+
+/* FINISCE LINK-GROUPS */
