@@ -227,17 +227,22 @@ body {
 /* COMINCIA DEPLOY */
 
 #deploy {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 #deploy h2 {
     font-size: 35px;
+    font-weight: 700;
 }
 
 #deploy p {
     color: rgba(3,27,78,.7);
     font-size: 21px;
+}
+
+#deploy .ms--block-content {
+    padding-top: 60px;
 }
 
 #deploy .ms--list-styling {
@@ -252,6 +257,7 @@ body {
     border-left: 2px solid #e5e8ed;
     font-size: 17px;
     color: rgba(3,27,78,.7);
+
 }
 
 #deploy .ms--list-styling li:hover {
@@ -260,8 +266,21 @@ body {
     cursor: pointer;
 }
 
+#deploy .ms--right-block h3 {
+    font-size: 19px;
+}
+
+#deploy .ms--right-block p {
+    font-size: 17px;
+    color: rgba(3,27,78,.75);
+}
+
 #deploy .ms--img-style {
     height: 40px;
+}
+
+#deploy .ms--block-spacing {
+    padding-bottom: 30px;
 }
 
 /* FINISCE DEPLOY */
