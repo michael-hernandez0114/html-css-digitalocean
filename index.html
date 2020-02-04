@@ -4,12 +4,14 @@
         <meta charset="utf-8">
         <title>Digital Ocean</title>
         <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/b3f49f1116.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
+
     </head>
     <body>
-        <header class="test">
+        <header>
             <nav class="navbar navbar-default navbar-fixed-top ms--header">
                 <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -127,7 +129,7 @@
                             <div class="col-lg-6">
                                 <div class="ms--right-block">
                                     <form class="col-lg-10 col-lg-offset-1">
-                                        <h4 class="text-center">Deploy in seconds</h4>
+                                        <h4 class="text-center ms--txt-color">Deploy in seconds</h4>
                                         <div class="form-group">
 
                                             <input type="text" class="form-control" id="exampleText1" placeholder="Full name">
@@ -183,22 +185,22 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-2 ms--image-block">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/logos/docker-bab60eeb.png" alt="docker">
+                        <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/logos/docker-bab60eeb.png" alt="docker">
                     </div>
                     <div class="col-lg-2">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/logos/gitlab-166e2067.png" alt="bitlab">
+                        <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/logos/gitlab-166e2067.png" alt="bitlab">
                     </div>
                     <div class="col-lg-2">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png" alt="slack">
+                        <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png" alt="slack">
                     </div>
                     <div class="col-lg-2">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/logos/hashicorp-4431df79.png" alt="hashicorp">
+                        <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/logos/hashicorp-4431df79.png" alt="hashicorp">
                     </div>
                     <div class="col-lg-2">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/logos/wework-be6eab32.png" alt="wework">
+                        <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/logos/wework-be6eab32.png" alt="wework">
                     </div>
                     <div class="col-lg-2">
-                        <img src="https://www.digitalocean.com/assets/media/homepage/logos/splunk-06b17d75.png" alt="splunk">
+                        <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/logos/splunk-06b17d75.png" alt="splunk">
                     </div>
 
                 </div>
@@ -210,6 +212,63 @@
 
             </div>
 
+        </section>
+        <section id="deploy">
+            <div class="container">
+                <div class="row text-center ms--txt-color">
+                    <div class="col-lg-6 col-lg-offset-3">
+                        <h2>Deploy and scale seamlessly</h2>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-lg-12">
+                        <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <ul class="ms--list-styling">
+                            <li>Deploy</li>
+                            <li>Scale</li>
+                            <li>Store</li>
+                            <li>Secure</li>
+                            <li>Monitor</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="ms--kubernetes">
+                                    <img class="img-responsive ms--img-style" src="https://www.webofmars.com/wp-content/uploads/2018/12/logo_with_border-350x350.png" alt="kubernetes">
+                                    <h3>Kubernetes in minutes</h3>
+                                    <p>Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="ms--kubernetes">
+                                    <img class="img-responsive ms--img-style" src="https://waterionizer.org/wp-content/uploads/2016/11/cropped-bw-icon.png" alt="droplets">
+                                    <h3>Flexible compute types</h3>
+                                    <p>With Standard, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="ms--kubernetes">
+                                    <img class="img-responsive ms--img-style" src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/plus-square-o-256.png" alt="maintenance">
+                                    <h3>1-Click App Marketplace</h3>
+                                    <p>Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="ms--kubernetes">
+                                    <img class="img-responsive ms--img-style" src="https://pbs.twimg.com/profile_images/1196517318/Earth_Globe_Logo.jpg" alt="global">
+                                    <h3>Global Availability</h3>
+                                    <p>Deploy to any of our data center locations – New York, SF, London, Amsterdam, Bangalore, and more.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </body>

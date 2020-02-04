@@ -1,8 +1,18 @@
+/* UTILE GENERALE */
+
+.ms--txt-color {
+    color: #031b4e;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* UTILE GENERALE */
+
+
 /* COMINCIA HEADER */
 
-.test {
-    padding: 0 30px
-}
 
 .ms--header {
     padding-top: 20px;
@@ -13,6 +23,7 @@
 .navbar-default {
     background-color: white;
     margin-bottom: 0;
+    line-height: 50px;
 }
 
 .navbar-brand {
@@ -34,7 +45,6 @@
 
 .navbar-default .navbar-nav > li > .ms--btn-signup {
     padding: 8px 13px;
-    margin-top: 8px;
     border-radius: 5px;
     border: 1px solid #0069ff;
     color: #0069ff;
@@ -91,7 +101,6 @@
 #jumbotron .ms--right-block h4 {
     font-size: 30px;
     padding-bottom: 20px;
-    color: #031b4e;
     font-weight: 700;
 }
 
@@ -198,7 +207,7 @@
 }
 
 #business-solutions img {
-    max-width: 100%;
+    object-fit: contain;
     height: 100px;
 
 }
@@ -214,3 +223,45 @@
 }
 
 /* FINISCE BUSINESS-SOLUTIONS */
+
+/* COMINCIA DEPLOY */
+
+#deploy {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#deploy h2 {
+    font-size: 35px;
+}
+
+#deploy p {
+    color: rgba(3,27,78,.7);
+    font-size: 21px;
+}
+
+#deploy .ms--list-styling {
+    list-style: none;
+
+}
+
+#deploy .ms--list-styling li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    border-left: 2px solid #e5e8ed;
+    font-size: 17px;
+    color: rgba(3,27,78,.7);
+}
+
+#deploy .ms--list-styling li:hover {
+    color: #031b4e;
+    border-color: #0069ff;
+    cursor: pointer;
+}
+
+#deploy .ms--img-style {
+    height: 40px;
+}
+
+/* FINISCE DEPLOY */
