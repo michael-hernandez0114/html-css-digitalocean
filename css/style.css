@@ -164,9 +164,9 @@ body {
 }
 
 #jumbotron .ms--left-block h1 {
-    font-size: 65px;
+    font-size: 60px;
     padding-bottom: 10px;
-
+    font-weight: 700;
 }
 
 #jumbotron .ms--left-block p {
@@ -293,6 +293,28 @@ body {
 #jumbotron .ms--terms {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+@media all and (max-width: 999px) {
+    #jumbotron .ms--left-block h1 {
+        font-size: 50px;
+    }
+}
+
+@media all and (max-width: 874px) {
+    #jumbotron .ms--left-block h1 {
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    #jumbotron .ms--bg-image {
+        background: blue;
+    }
+
+    #jumbotron .ms--left-block {
+        padding-bottom: 40px;
+    }
 }
 
 /* FINISCE JUMBOTRON */
