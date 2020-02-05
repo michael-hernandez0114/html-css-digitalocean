@@ -394,6 +394,12 @@ body {
     padding-bottom: 30px;
 }
 
+@media all and (max-width: 767px) {
+    #deploy .ms--list-styling {
+        padding-bottom: 30px;
+    }
+}
+
 /* FINISCE DEPLOY */
 
 /* COMINCIA DEVELOPERS */
