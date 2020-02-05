@@ -335,8 +335,20 @@ body {
 
 #business-solutions img {
     object-fit: contain;
-    height: 100px;
+    height: 50px;
 
+}
+
+@media all and (max-width: 767px) {
+    #business-solutions img {
+        max-width: 100%;
+        height: 100px;
+    }
+
+    #business-solutions .ms--img-block {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
 
 /* FINISCE BUSINESS-SOLUTIONS */
