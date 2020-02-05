@@ -431,6 +431,33 @@ body {
     background-color: blue;
 }
 
+@media all and (min-width: 960px) and (max-width: 991px) {
+    #business .ms--block-breakpoint-sm {
+         width: 24%;
+         display: inline-block;
+         vertical-align: text-top;
+
+    }
+
+    #business .ms--row-block {
+
+    }
+}
+
+@media all and (max-width: 959px) {
+    #business .ms--block-breakpoint-xs {
+         width: 48%;
+         display: inline-block;
+         vertical-align: text-top;
+
+    }
+
+    #business .ms--row-block {
+
+    }
+}
+
+
 /* FINISCE DEVELOPERS */
 
 /* COMINCIA BUSINESS */
